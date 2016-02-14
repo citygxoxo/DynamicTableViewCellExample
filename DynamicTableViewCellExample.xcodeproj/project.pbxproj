@@ -15,6 +15,8 @@
 		169BD1B31C7064BC00BB8EFB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BD1B21C7064BC00BB8EFB /* TableViewController.m */; };
 		169BD1B61C7069D100BB8EFB /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BD1B51C7069D100BB8EFB /* CustomTableViewController.m */; };
 		169BD1B91C7069DC00BB8EFB /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BD1B81C7069DC00BB8EFB /* CustomTableViewCell.m */; };
+		16AD89D21C70C6F000A3FBC7 /* ImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD89D11C70C6F000A3FBC7 /* ImageTableViewController.m */; };
+		16AD89D51C70C70000A3FBC7 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD89D41C70C70000A3FBC7 /* ImageTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		169BD1B71C7069DC00BB8EFB /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		169BD1B81C7069DC00BB8EFB /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		169BD1BA1C706AA700BB8EFB /* DynamicText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicText.h; sourceTree = "<group>"; };
+		16AD89D01C70C6F000A3FBC7 /* ImageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewController.h; sourceTree = "<group>"; };
+		16AD89D11C70C6F000A3FBC7 /* ImageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewController.m; sourceTree = "<group>"; };
+		16AD89D31C70C70000A3FBC7 /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		16AD89D41C70C70000A3FBC7 /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 				169BD1B51C7069D100BB8EFB /* CustomTableViewController.m */,
 				169BD1B71C7069DC00BB8EFB /* CustomTableViewCell.h */,
 				169BD1B81C7069DC00BB8EFB /* CustomTableViewCell.m */,
+				16AD89D01C70C6F000A3FBC7 /* ImageTableViewController.h */,
+				16AD89D11C70C6F000A3FBC7 /* ImageTableViewController.m */,
+				16AD89D31C70C70000A3FBC7 /* ImageTableViewCell.h */,
+				16AD89D41C70C70000A3FBC7 /* ImageTableViewCell.m */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -178,8 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				169BD1B61C7069D100BB8EFB /* CustomTableViewController.m in Sources */,
+				16AD89D51C70C70000A3FBC7 /* ImageTableViewCell.m in Sources */,
 				169BD19C1C70645800BB8EFB /* AppDelegate.m in Sources */,
 				169BD1B31C7064BC00BB8EFB /* TableViewController.m in Sources */,
+				16AD89D21C70C6F000A3FBC7 /* ImageTableViewController.m in Sources */,
 				169BD1B91C7069DC00BB8EFB /* CustomTableViewCell.m in Sources */,
 				169BD1991C70645800BB8EFB /* main.m in Sources */,
 			);
@@ -328,6 +340,7 @@
 				169BD1AD1C70645800BB8EFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
