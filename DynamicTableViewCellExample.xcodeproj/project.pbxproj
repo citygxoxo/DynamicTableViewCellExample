@@ -17,6 +17,8 @@
 		169BD1B91C7069DC00BB8EFB /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 169BD1B81C7069DC00BB8EFB /* CustomTableViewCell.m */; };
 		16AD89D21C70C6F000A3FBC7 /* ImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD89D11C70C6F000A3FBC7 /* ImageTableViewController.m */; };
 		16AD89D51C70C70000A3FBC7 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD89D41C70C70000A3FBC7 /* ImageTableViewCell.m */; };
+		16AD89DA1C71508D00A3FBC7 /* CustomImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD89D91C71508D00A3FBC7 /* CustomImageTableViewController.m */; };
+		16AD89DD1C71509B00A3FBC7 /* CustomImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD89DC1C71509B00A3FBC7 /* CustomImageTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		16AD89D11C70C6F000A3FBC7 /* ImageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewController.m; sourceTree = "<group>"; };
 		16AD89D31C70C70000A3FBC7 /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
 		16AD89D41C70C70000A3FBC7 /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		16AD89D81C71508D00A3FBC7 /* CustomImageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageTableViewController.h; sourceTree = "<group>"; };
+		16AD89D91C71508D00A3FBC7 /* CustomImageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageTableViewController.m; sourceTree = "<group>"; };
+		16AD89DB1C71509B00A3FBC7 /* CustomImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageTableViewCell.h; sourceTree = "<group>"; };
+		16AD89DC1C71509B00A3FBC7 /* CustomImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,10 @@
 				16AD89D11C70C6F000A3FBC7 /* ImageTableViewController.m */,
 				16AD89D31C70C70000A3FBC7 /* ImageTableViewCell.h */,
 				16AD89D41C70C70000A3FBC7 /* ImageTableViewCell.m */,
+				16AD89D81C71508D00A3FBC7 /* CustomImageTableViewController.h */,
+				16AD89D91C71508D00A3FBC7 /* CustomImageTableViewController.m */,
+				16AD89DB1C71509B00A3FBC7 /* CustomImageTableViewCell.h */,
+				16AD89DC1C71509B00A3FBC7 /* CustomImageTableViewCell.m */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -187,6 +197,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AD89DD1C71509B00A3FBC7 /* CustomImageTableViewCell.m in Sources */,
+				16AD89DA1C71508D00A3FBC7 /* CustomImageTableViewController.m in Sources */,
 				169BD1B61C7069D100BB8EFB /* CustomTableViewController.m in Sources */,
 				16AD89D51C70C70000A3FBC7 /* ImageTableViewCell.m in Sources */,
 				169BD19C1C70645800BB8EFB /* AppDelegate.m in Sources */,

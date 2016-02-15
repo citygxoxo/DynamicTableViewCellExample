@@ -23,11 +23,6 @@
     [self.tableView reloadData];
 }
 
-//- (void)viewDidAppear:(BOOL)animated {
-//    [super viewDidAppear:animated];
-//    [self.tableView reloadData];
-//}
-
 #pragma mark - Table view data source
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
@@ -41,8 +36,6 @@
     ImageTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     cell.myImageView.image = [UIImage imageNamed:@"sample"];
     cell.contentLabel.text = dynamicTextArray[indexPath.row];
-//    [cell setNeedsLayout];
-//    [cell layoutIfNeeded];
     return cell;
 }
 

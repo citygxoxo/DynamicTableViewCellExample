@@ -15,3 +15,7 @@ Simple example project to create dynamic height table view cells.
 * Custom UITableViewCell
 
 ![Screenshot2](./Screenshot2.png)
+
+* Custom UITableViewCell with image
+
+![Screenshot3](./Screenshot3.png)
