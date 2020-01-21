@@ -11,6 +11,7 @@ Simple example project to create dynamic height table view cells.
 * Default UITableViewCell
 
 ![Screenshot1](./Screenshot1.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcitygxoxo%2FDynamicTableViewCellExample.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcitygxoxo%2FDynamicTableViewCellExample?ref=badge_shield)
 
 * Custom UITableViewCell
 
@@ -19,3 +20,6 @@ Simple example project to create dynamic height table view cells.
 * Custom UITableViewCell with image
 
 ![Screenshot3](./Screenshot3.png)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcitygxoxo%2FDynamicTableViewCellExample.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcitygxoxo%2FDynamicTableViewCellExample?ref=badge_large)
